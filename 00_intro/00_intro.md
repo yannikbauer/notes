@@ -12,6 +12,8 @@
         - simpler things like renaming a bunch of files/folders in nested hierarchy
         - arithmetic, simple calculations instead of a calculator
 
+- quick round of intros: name, field of study, programming background, data analysis wants/needs
+
 - why programming/coding?
     - for those who don't know any programming: how do you analyze your data?
     - probably Excel, which is a mini language
@@ -45,7 +47,6 @@
     - integrated lecture + in-class exercises
         - lecture: introduce concepts, exercises: practice the concepts
     - help each other out, don't always sit in the same place!
-    - quick intros: name, field of study, programming background, data analysis wants/needs
 
 #### Outline
 
@@ -69,7 +70,7 @@ control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) w
 #### Grades
 
 - attendance: 25%, all or nothing
-    - can miss up to 3 out of 12 classes, any more and no credit
+    - can miss up to 3 out of 12 classes, any more and no credit for course
 - homework: 25%, 4 homework assignments, short, similar to in-class exercises
     - graded by attempt, not outcome
     - we'll go over solutions the following week

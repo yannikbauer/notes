@@ -21,12 +21,12 @@
         - `~` - home folder
         - `-` - last used directory, i.e. `cd -` changes to last directory
     - others commonly used:
-        - `mv` - move files/folders - a rename is just a move from old name to new name
-        - `cp` - copy files/folders
-        - `rm` - remove files/folders
-        - all three accept `-v` (verbose) flag: prints out confirmation of what was done
         - `mkdir` - make directory
         - `touch` - create an empty file, or update last access time of existing file
+        - `mv` - move files/folders - a rename is just a move from old name to new name
+        - `cp` - copy files/folders
+        - `rm` - remove files/folders - dangerous! permanently deletes without confirmation
+        - many commands accept `-v` (verbose) flag: prints out confirmation of what was done
         - `cat` - concatenate file(s)
             - quickly view file contents using `cat filename`
     - save text output of a command to a file using redirection:
