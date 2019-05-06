@@ -54,7 +54,7 @@
 
 #### Python basics
 
-- python interpreter
+- Python interpreter
     - interpreted vs compiled languages
     - type `python` at the command line, type `exit()` or hit `Ctrl+D` to exit
     - calculator, math operators
@@ -145,15 +145,17 @@
             a += 1
         ````
         - similar to `for` loops, except you manually increment your iterator as you like
+        - if iterator is not manually incremented, loop runs forever!
+    - `CTRL+C` interrupts execution in both `for` and `while` loops
     - indentation is used to define blocks inside `if`, `for` and `while` statements, and later as well when defining your own functions using `def`
         - indent with tabs or spaces, but spaces are *strongly* preferred
         - 4 spaces per indentation level, check editor settings
-    - paste multiline code from editor directly into python interpreter
+    - paste multiline code from editor directly into Python interpreter
 
 #### Exercises
 
 1. Launch `python`. Do some math. Calulate `2 + 2` and save it to a variable called `genius`. Now print out the result in `genius`.
-2. use a `for` loop to print out integers 0 to 9.
+2. Use a `for` loop to print out integers 0 to 9.
 3. Exit `python`. Use a text editor to save your code in 2. to a script called `basics.py`. Run it by typing `python basics.py` at the command line. Does it work?
 4. Modify the script to print out the square of those integers. Test it!
 5. Modify the script to also print out the sum of the integers
