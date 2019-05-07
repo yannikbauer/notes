@@ -169,7 +169,7 @@ def addsubtract(x, y):
     - keep lines less than 100 characters long, 80 is preferred
         - forces you to break up excessively long lines of code into shorter pieces
         - good text editors have visual guide option that you can set at say 95 characters
-    - leave a space between neighbouring function arguments
+    - leave a blank line between neighbouring function arguments
     - all the style tips: PEP 8: <https://www.python.org/dev/peps/pep-0008>
 - comments, docstrings
     - single line: `#`
