@@ -85,10 +85,10 @@
 - string methods
     - everything in Python is an "object", `type()` tells you what kind of object it is
     - objects can have "attributes", which are like adjectives
-        `a = 1.0`
-        `a.<TAB>` in IPython to discover all attributes and methods of an object
-        `a.real` # real part of `a`
-        `a.imag` # imaginary part of `a`
+        - `a = 1.0`
+        - `a.<TAB>` in IPython to discover all attributes and methods of an object
+        - `a.real` - real part of `a`
+        - `a.imag` - imaginary part of `a`
         - compare with complex number `a = 1+2j`
     - objects can also have "methods" (denoted by `()` in `.<TAB>` expansion)
         - methods are functions that only apply to that object
