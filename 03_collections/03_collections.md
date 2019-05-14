@@ -76,7 +76,7 @@
         - `tuple(l)`
     - indexing for lists is the same as for tuples and strings:
         - `l[0]` returns the first index, `l[n-1]` or `l[-1]` returns the last
-        - delete entries from a list with `del` keyword by specifying the entry to delete: `del l[2]`
+    - delete entries from a list with `del` keyword by specifying the *index* of the entry to delete: `del l[2]`
     - slicing for lists is the same as for tuples and strings:
         - `l[::3]` gives every 3rd entry in the list, `l[::-3]` gives the reverse
 
