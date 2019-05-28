@@ -158,14 +158,13 @@
 
 - **typecasting**: convert from one dtype to another
     - using the dtype as a function
-    - `a = np.array([1, 2, 3])`
-    - `np.float64(a)` converts `a` to float64 dtype
+    - `a = np.array([1, 2, 3])` has `a.dtype` of `int64`
+    - `np.float64(a)` converts `a` to dtype `float64`
         - similar to basic Python: `float(val)`
-    - `a = np.array([1.1, 2.2, 3.3])`
+    - `a = np.array([1.1, 2.2, 3.3])` has `a.dtype` of `float64`
     - `np.int64(a)` converts `a` to int64 dtype, but it truncates!
         - this is similar to basic Python: `int(val)`
         - use `np.int64(np.round(a))` to round to the nearest integer instead
-    - check array data type with `a.dtype`
 
 - usually only need to worry about int vs. float dtype, stick to the defaults `int64` and `float64`
     - only consider going down to smaller dtypes if you have lots of data and not enough memory on your machine
@@ -182,8 +181,9 @@
     2. What do you predict will happen if you convert this sequence to an array? What will the array's dtype be? How much memory will it use (in bytes)?
     3. Now check your predictions. Convert the sequence to an array and check both its `.dtype` and its `.nbytes`.
 2. You have integer data whose values span -2 to 2. Normally, you would use an integer array with numpy's default int64 dtype to store this data. But, the dataset is huge (1.5 billion entries) and your laptop only has 4 GB of RAM.
-    1. How much memory would your data take up if you used the default int64 dtype in numpy?
+    1. How much memory would your data take up if you used the default integer dtype in numpy?
     2. Should you use an int or float dtype? Signed or unsigned?
     3. What would be the optimal dtype to minimize the amount of memory used by your dataset? Will it fit into your 4 GB of RAM?
 3. Repeat question 2. for integer values that span 0 to 10000.
 4. Repeat question 2. for integer values that span -1 to 50000.
+5. Repeat question 2. for float values that span -60000 to 60000.
