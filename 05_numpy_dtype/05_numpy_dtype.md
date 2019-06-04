@@ -135,7 +135,7 @@
     - special values:
         - `np.inf` and `np.nan`, i.e. "infinity" and "not a number"
             - `np.inf` is used to represent out of range float values
-            - `np.nan` is used to represent invalid float values, like 1/0
+            - `np.nan` is used to represent invalid float values, like `np.sqrt(-1)`
             - `inf` is signed (can be +/-), but `nan` has no sign
             - doing any math involving `inf` or `nan` always results in another `inf` or `nan`
             - `np.inf + np.nan` gives `np.nan`
