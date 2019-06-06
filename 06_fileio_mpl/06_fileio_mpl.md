@@ -74,7 +74,8 @@
     ```python
     np.savez('Vt', V=V, t=t) # save both arrays to .npz, pass as keyword arguments
     d = np.load('Vt.npz') # load from .npz, returns something like a dictionary
-    V, t = d['V'], d['t'] # index into dictionary to get the values
+    list(d) # get list of keys in the returned dictionary
+    V, t = d['V'], d['t'] # index into dictionary using the keys to get the values
     ````
     - reading and writing binary MATLAB `.mat` files
         - `scipy.io.loadmat()` and `scipy.io.savemat()` functions in the scipy package
