@@ -1,6 +1,6 @@
 ### Homework 3
 
-As always, use docstrings and good style, and don't forget to test your code! Write your solutions in a file named `yourname_homework3.py` and submit to m.spacek@lmu.de before class 07 (May 29).
+As always, use docstrings and good style, and don't forget to test your code! Write your solutions in a file named `yourname_homework3.py` and submit to m.spacek@lmu.de before class 07 (June 11).
 
 Write one script to do all of 1-11. The script should be run from within IPython using `run yourname_homework3.py`. Make sure that all the plots pop up when the script is run, and that the command line remains interactive. If it doesn't, check the instructions on finding and modifying your `matplotlibrc` files near the end of the notes for class 06.
 
