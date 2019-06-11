@@ -15,6 +15,10 @@
     plt.plot(t, s) # plot points in t on x-axis vs. points in s on y-axis
     plt.plot(t, c) # plot cosine as well
     ````
+    - to get references to your existing figures/axes with the MATLAB style commands:
+        - use `f = plt.gcf()` to get a reference to the current figure
+        - use `ax = plt.gca()` to get a reference to the current axes
+
     - MPL also has an alternative, more Pythonic, **object-oriented programming (OOP)** style, with very similar commands
     - first, you explicitly create a figure and an axes
     - `f, ax = plt.subplots()` - by default creates a new figure with one set of x-y axes, and returns objects representing them, typically assigned the names `f` and `ax`
@@ -33,9 +37,7 @@
     - `f2, ax2 = plt.subplots()`
     - `ax2.hist(s)` - plot a histogram of sin(t) this time
     - to clear a particular axes: `ax.clear()`
-    - if you created your figures/axes with the MATLAB style commands:
-        - use `f = plt.gcf()` to get a reference to the current figure
-        - use `ax = plt.gca()` to get a reference to the current axes
+
 
 - subplots: create multiple axes in a single figure
     - `f, axs = plt.subplots(nrows=2, ncols=2)`
