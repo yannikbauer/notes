@@ -208,6 +208,7 @@
                 - the path will probably look something like: `...something.../Anaconda3/site-packges/matplotlib/mpl-data/`
             - open the `matplotlibrc` file with a plain text editor (e.g. notepad in windows, textedit in mac)
             - uncomment `#interactive: False` line and set to `True` instead
+        - if all else fails, you can always call `plt.show()` when you're done with plot commands, to show the figure, but then your command line might be inactive until you close the figure again :(
     - figures in **jupyter** not automatically displaying inline?
         - type `%matplotlib inline` in a cell, all cells that follow will do inline plots
         - make this setting permanent in `~/.ipython/ipython_config.py` file
