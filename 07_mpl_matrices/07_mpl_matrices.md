@@ -67,7 +67,8 @@
             - allows each point to be formatted with a unique colour, marker and size
             - defaults to not drawing a line between points
     - errorbar plot
-        - `ax.errorbar(x, y, yerr=0.1, xerr=0.2)` - again similar to `a.plot()`, but with errorbars, each point can have a different sized pair of error bars
+        - `ax.errorbar(x, y, yerr=0.1, xerr=0.2, linestyle='')`
+            - again similar to `a.plot()`, but with errorbars, each point can have a different sized pair of error bars
     - bar charts
         - `x, y = [1, 2, 3], [4, 5, 6]`
         - `ax.bar(x, height=y)` - vertical bars
