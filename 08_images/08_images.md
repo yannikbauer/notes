@@ -98,7 +98,7 @@ ax.imshow(biglowresgauss, cmap='gray') # ... but its pixels have been smoothed
 from skimage import data # example data
 moon = data.moon() # lunar surface
 f, ax = plt.subplots(1, 2)
-ax[0].imshow(moon, cmap='gray', vmin=0, vmax=255) # vmin/vmax turn off auto normalize
+ax[0].imshow(moon, cmap='gray', vmin=0, vmax=255) # manual scaling w/ vmin/vmax
 ax[1].hist(moon.ravel(), bins=np.arange(256+1)) # +1 adds right bin edge
 ````
 
